@@ -1,0 +1,39 @@
+.contactList {
+  margin-top: 16px;
+}
+
+.contactList__item {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 8px;
+
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.contactList__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.contactList__buttonContainer {
+  display: flex;
+  gap: 12px;
+}
+
+.contactList__button {
+  display: block;
+  padding: 2px 12px;
+
+  margin-left: auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 4px;
+
+  transition: background-color 250ms linear, color 250ms linear;
+}
+.contactList__button:hover {
+  color: #fff;
+
+  background-color: #6495ed;
+  transition: background-color 250ms linear, color 250ms linear;
+}

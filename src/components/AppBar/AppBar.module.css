@@ -1,0 +1,6 @@
+.appBar__list {
+  display: flex;
+  gap: 12px;
+
+  list-style: none;
+}
