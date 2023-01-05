@@ -33,10 +33,8 @@ export const ContactsPage = () => {
     dispatch(deleteContact(id));
   };
 
-  const handleEditContact = id => {
-    setEditedContact(() => {
-      return contacts.find(contact => contact.id === id);
-    });
+  const handleEditContact = ({ id, name, number }) => {
+    setEditedContact({ id, name, number });
     setBlockLayout(true);
   };
 

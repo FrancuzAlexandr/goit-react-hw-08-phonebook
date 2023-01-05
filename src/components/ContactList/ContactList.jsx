@@ -28,7 +28,7 @@ export const ContactList = ({
                 variant="contained"
                 size="small"
                 type="button"
-                onClick={() => editContactFunc(id)}
+                onClick={() => editContactFunc({ id, name, number })}
               >
                 Edit
               </Button>
